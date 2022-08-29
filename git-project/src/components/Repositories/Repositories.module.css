@@ -20,7 +20,7 @@ header {
   color: #fff;
 }
 .searchSpan {
-  heigth: 50px;
+  /* height: 50px; */
   width: 50px;
   background-color: rgba(175, 184, 193, 0.2);
   padding: 20px;
