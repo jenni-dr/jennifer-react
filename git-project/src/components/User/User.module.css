@@ -1,0 +1,83 @@
+.userProfile {
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 75px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.articleProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.userButton {
+  width: 300px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #808080;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.userName {
+  font-size: 24px;
+  color: #fff;
+}
+
+h4 {
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+h5 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userStatus {
+  margin-bottom: 10px;
+  padding-left: 12px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.userFollwing {
+  display: flex;
+  gap: 4px;
+}
+
+
+@media (max-width: 375px) {
+  .userProfile {
+    margin-left:0;
+
+  }
+  img {
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+ }
+
+
