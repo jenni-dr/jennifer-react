@@ -5,7 +5,7 @@ import { Repositories } from '../../components/Repositories/Repositories';
 import { User } from '../../components/User/User';
 
 type ProfileProps = {
-  dataProfiles: {};
+  dataProfiles: any;
 }
 
 export function UserProfile() {
@@ -14,8 +14,8 @@ export function UserProfile() {
 
   return (
     <main className={styles.mainProfile}>
-      <User className={styles.userSide} dataProfiles={dataProfiles} />
-      <Repositories className={styles.repositorySide} dataProfiles={dataProfiles} />
+      <User  dataProfiles={dataProfiles} />
+      <Repositories  dataProfiles={dataProfiles} />
     </main>
   );
 }
